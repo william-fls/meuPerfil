@@ -1,0 +1,36 @@
+<!DOCTYPE html>]
+<html lange="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="vierpont" content="width=devince-width" inicial-scale="1,0">
+    <title>Perfil Interativo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-ligt">
+    <div class="conteiner mt-5"></div>
+    <div class="card" id="profileCard">
+      <div class="card-body text-center">
+        <img src="http://via.placeholder.com/150" alt="Imagem do Perfil" class="rounded-circle mb-3" style="width: 150px;">
+        <h3 id="profileName">Nome: Meu Perfil</h3>
+        <p id="profileAge">Idade: 18</p>
+      </div>
+    </div>
+    <h5>Hobbies:</h5>
+    <ul id="hobbiesList" class="list-group mb-3">
+      <li class="list-group-item">Leitura</li>
+      <li class="list-group-item">Esportes</li>
+      <li class="list-group-item">Música</li>
+    </ul>
+  </div>
+<button class="btn btn-primary me-2" onclick="alterarNome()">Alterar Nome</button>
+<button class="btn btn-success me-2" onclick="adicionarHobby()">Adicionar Hobby</button>
+<button class="btn btn-warning me-2" onclick="mudarcorDeFundo()">Mudar cor de Fundo</button> 
+
+    <script>
+        function alterarNome() {
+            const novoNome = prompt("Digite um novo nome")
+            documente.getElementByid("profileName")
+        }
+    </script>
+</body>
+</html>
